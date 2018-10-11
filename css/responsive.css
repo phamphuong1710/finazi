@@ -92,8 +92,16 @@
 		border-bottom: 1px solid rgb(234, 234, 234);
 		
 	}
-	.col-md-9,.col-md-3{
+	.col-md-9,.col-md-3,.col-md-8,.col-md-4{
 		max-width: 100%;
 		flex: 0 0 100%;
 	}
+	.close-form-search {
+		top: 8px;
+		font-size: 30px;
+	}
+	.review-total-order{
+		margin: 60px 0 100px;
+	}
+
 }

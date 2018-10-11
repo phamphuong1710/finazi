@@ -19,6 +19,7 @@
 						// if (is_year()) {
 						// 	printf(__('Taged: %1$s','finazi'),the_time('Y'));
 						// }
+
 					?>
 					<?php if (have_posts()) : while (have_posts()) : the_post() ; ?>
 							<?php get_template_part('content',get_post_format()); ?>

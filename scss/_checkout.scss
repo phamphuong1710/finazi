@@ -1,0 +1,154 @@
+.col-md-8{
+	padding-left: 0;
+}
+.woocommerce-billing-fields{
+	h3{
+		font-size: 24px;
+		font-family: $font__title;
+		color: $color__text-title;
+		font-weight: bold;
+	}
+}
+.woocommerce-shipping-fields{
+	span{
+			font-size: 15px;
+			font-family: $font__main;
+			color: $color__text-title;
+
+	}
+}
+.woocommerce-billing-fields__field-wrapper{
+	.form-row{
+		display: block;
+		input,
+		.woocommerce-input-wrapper{
+			height: 50px;
+			background-color: $color__background-input-checkout;
+		}
+		input{
+			border: 1px solid $color__border-image;
+		}
+		.select2-selection--single,
+		.select2-selection__rendered,
+		.select2-selection__arrow{
+			height: 50px;
+		}
+		.select2-selection__rendered,
+		.select2-selection__arrow{
+			padding: 10px 20px;
+		}
+		label{
+			font-size: 15px;
+			font-family: $font__main;
+			color: $color__text-title;
+		}
+	}
+	#billing_postcode_field,
+	#billing_city_field,
+	#billing_phone_field,
+	#billing_email_field{
+		width: 47%;
+		overflow: visible;
+		clear: none;
+	}
+	#billing_postcode_field,
+	#billing_phone_field{
+		float: left;
+	}
+	#billing_city_field,
+	#billing_email_field{
+		float: right;
+	}
+}
+.woocommerce-input-wrapper{
+	display: contents;
+}
+.review-total-order{
+	background-color: $color__background-cart_total;
+	padding: 40px 0 0 0;
+	h3{
+		text-align: center;
+		font-size: 24px;
+		font-family: $font__title;
+		color: $color__text-title;
+		font-weight: bold;
+	}
+	table.shop_table{
+		thead{
+			th{
+				font-size: 16px;
+				font-family: $font__title;
+				color: $color__text-title;
+				font-weight: 500;
+			}
+		}
+		tbody{
+			.cart_item{
+				td{
+					font-size: 14px;
+					font-family: $font__main;
+					color: $color__text-main;
+					font-weight: 300;
+				}
+			}
+		}
+		tfoot{
+			.cart-subtotal,
+			.shipping{
+				th{
+					font-size: 16px;
+					font-family: $font__title;
+					color: $color__text-title;
+					font-weight: 500;
+				}
+				td{
+					font-size: 14px;
+					font-family: $font__main;
+					color: $color__text-main;
+					font-weight: 300;
+				}
+
+			}
+			.order-total{
+				th{
+					font-size: 18px;
+					font-family: $font__title;
+					color: $color__text-title;
+					font-weight: 500;
+				}
+				td{
+					font-size: 18px;
+					font-family: $font__main;
+					color: $color__text-title;
+				}
+			}
+		}
+	}
+
+}
+.woocommerce-checkout{
+	font-family: $font__main;
+	#payment{
+		background-color: $color__background-cart_total;
+		font-size: 14px;
+		color: $color__text-main;
+		div.form-row{
+			width: 100%;
+			padding: 0;
+			.woocommerce-terms-and-conditions-wrapper{
+				padding: 1em;
+			}
+		}
+		.button{
+			width: 100%;
+			height: 50px;
+			background-color: $color__background-button-checkout;
+		}
+	}
+	textarea{
+		border-top: none;
+		border-left: none;
+		border-right: none;
+	}
+}
+

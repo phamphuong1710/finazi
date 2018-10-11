@@ -1,4 +1,5 @@
 <?php get_header() ?>
+
 	<div class="content">
 		<div class="container">
 			<div class="row">
@@ -8,12 +9,13 @@
 							
 							<?php endwhile; ?>
 							<?php else : ?>
-								<?php get_template_part('404'); ?>
+								<?php get_template_part('content','none'); ?>
 						<?php endif ?>
 				</section>
 				<aside id="main-sidebar" class="col-md-3">
 					<?php get_sidebar(); ?>
 				</aside>
+
 			</div>
 		</div>
 	</div>

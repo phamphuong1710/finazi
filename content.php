@@ -42,7 +42,14 @@
 			<?php if (is_single()) {?>
 				<div class="social-network">
 					<div class="share_number">
-						<p>Share</p>
+
+						<p><?php echo esc_html( 'Share', 'finazi' ); ?></p>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
+						<?php
+							$src = 'dkfjdlfslf.com/photo';
+							$img_alt = 'Photo';
+						?>
+						<img src="" alt="">
 					</div>
 					<div class="share_with">
 						<ul>

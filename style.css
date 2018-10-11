@@ -6,8 +6,13 @@ Auther URI: phuongpham.96op@gmail.com
 Description: 
 Version: 1.0
 Tags: finazi, wordpress
-Textdomain: finazi
+Text Domain: finazi
 */
+body {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
 .header{
 	height: 115px;
 	box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -1141,3 +1146,5 @@ blockquote:before {
     line-height: 48px;
     margin-top: 30px;
 }
+
+
