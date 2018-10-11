@@ -363,6 +363,22 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 14px;
   color: #152639; }
 
+.woocommerce #content div.product .share-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .woocommerce #content div.product .share-product ul {
+    margin-left: 35px; }
+    .woocommerce #content div.product .share-product ul li {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex; }
+      .woocommerce #content div.product .share-product ul li a {
+        display: block;
+        padding: 5px 10px;
+        border: 1px solid #eee;
+        color: #6c6c6c; }
+
 .woocommerce #content div.product .woocommerce-tabs ul.tabs {
   padding: 0;
   text-align: center;
@@ -377,6 +393,27 @@ input[type=number]::-webkit-outer-spin-button {
   .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active {
     color: #14f1e4;
     border-bottom: 2px solid #14f1e4; }
+
+.woocommerce #reviews {
+  font-family: "Open Sans"; }
+  .woocommerce #reviews h3 {
+    margin-bottom: 30px;
+    color: #152639;
+    font-family: "Source Sans Pro";
+    font-weight: bold; }
+  .woocommerce #reviews .stars a {
+    color: #eecf23; }
+  .woocommerce #reviews #respond {
+    color: #6c6c6c; }
+    .woocommerce #reviews #respond label {
+      display: block; }
+  .woocommerce #reviews input#submit {
+    background-color: #152639;
+    color: #fff; }
+    .woocommerce #reviews input#submit:hover {
+      color: #152639 !important;
+      background-color: #fff;
+      border: 1px solid #152639; }
 
 #primary {
   margin-bottom: 100px; }

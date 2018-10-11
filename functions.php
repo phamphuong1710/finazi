@@ -81,7 +81,6 @@
 		wp_enqueue_script('slick-js');
 		wp_register_script('finazi-js',get_template_directory_uri().'/js/finazi.js', array('jquery'), null, true);
 		wp_enqueue_script('finazi-js');
-
 	}
 	add_action('wp_enqueue_scripts','finazi_style');
 	function finazi_customize_register($wp_customize){
@@ -470,13 +469,13 @@
 	add_action('woocommerce_shop_loop_item_title','woocommerce_template_loop_product_link_close',15);
 	function finazi_share(){
 		?>
-		<div class="share_with">
+		<div class="share-product">
 			<?php echo esc_html_e('SHARE: ','finazi') ?>
 			<ul>
-				<li><a href="#" class="fa fa-facebook"></a></li>
-				<li><a href="#" class="fa fa-twitter"></a></li>
-				<li><a href="#" class="fa fa-google-plus"></a></li>
-				<li><a href="#" class="fa fa-linkedin"></a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink() ?>" class="fa fa-facebook"></a></li>
+				<li><a href="https://twitter.com/home?status=<?php echo get_permalink() ?>" class="fa fa-twitter"></a></li>
+				<li><a href="https://plus.google.com/share?url=<?php echo get_permalink() ?>" class="fa fa-google-plus"></a></li>
+				<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink() ?>" class="fa fa-linkedin"></a></li>
 			</ul>
 		</div><?php
 	}
